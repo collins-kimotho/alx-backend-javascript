@@ -1,7 +1,9 @@
-// Define displayMessage as an arrow function
-const displayMessage = (message) => {
-    console.log(message); // Print the message to STDOUT
-};
-
-// Export the function
-module.exports = displayMessage; // Export using module.exports
+/**
+ * Prints a string to the standard output.
+ * @param {string} message - The message to display.
+ */
+function displayMessage(message) {
+    console.log(message);
+  }
+  
+module.exports = displayMessage;
