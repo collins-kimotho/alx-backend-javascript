@@ -2,8 +2,8 @@
  * Prints a string to the standard output.
  * @param {string} message - The message to display.
  */
-function displayMessage(message) {
+const displayMessage = (message) => {
     console.log(message);
 }
-  
+
 module.exports = displayMessage;
